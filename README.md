@@ -1,9 +1,18 @@
 # Star Battle Solver
 
+A comprehensive GUI application for solving Star Battle puzzles using constraint propagation and backtracking algorithms.
 
+## Project Demo
+
+1. **Main Interface**
+
+![Default State](https://raw.githubusercontent.com/collect1on/Star_Battle_Solver/main/folder_for_picture_in_readme/default%20state.png)
+
+2. **Configuration Loaded**
 ![Configuration Loaded Successfully](https://raw.githubusercontent.com/collect1on/Star_Battle_Solver/main/folder_for_picture_in_readme/configuration%20loaded%20successfully.png)
 
-A comprehensive GUI application for solving Star Battle puzzles using constraint propagation and backtracking algorithms.
+3. **Solution Found**
+![Solve Successfully](https://raw.githubusercontent.com/collect1on/Star_Battle_Solver/main/folder_for_picture_in_readme/solve%20successfully.png)
 
 ## Overview
 
@@ -100,18 +109,4 @@ python star_battle_solver.py
 - Use "Save Config" to store puzzle definitions
 - Use "Load Config" to retrieve previously saved puzzles
 - Configurations are stored in JSON format
-
-## File Format
-
-Configuration files use the following JSON structure:
-```json
-{
-  "n": 8,
-  "k": 1,
-  "regions": [[1, 1, 2, 2, ...], ...]
-}
-```
-
-Where regions is a 2D array with integers representing region IDs (-1 for unmarked cells).
-
 
