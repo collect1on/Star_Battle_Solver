@@ -1,5 +1,8 @@
 # Star Battle Solver
 
+
+![Configuration Loaded Successfully](https://raw.githubusercontent.com/collect1on/Star_Battle_Solver/main/folder_for_picture_in_readme/configuration%20loaded%20successfully.png)
+
 A comprehensive GUI application for solving Star Battle puzzles using constraint propagation and backtracking algorithms.
 
 ## Overview
